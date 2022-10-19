@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body{
+    width: auto;
+    padding: auto;
+    font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+    background-color: #fff;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container{
+    width: 1912px;
+    height: 40px;
+    background-color: #f5f7fa;
+    display: flex;
+    color: #6a6f67;
+    padding: 0px 150px 0px 100px;
+    align-items: center;
+}
+
+.container img{
+    width: 18px;
+    height: 18px;
+    margin: 0 15px;
+}
+
+.container ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 15px;
+}
+
+nav{
+    margin-left: auto;
+    margin-right: 10%;
+}
+
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 14px;
+    font-family: 'Roboto', sans-serif;
+    
+    
+}
+
+.cabecalho-menu{
+    display: flex;
+    gap: 38px;
+    justify-content: space-between;
+    font-weight: bold;
+    
+    
+}
+
+.cabecalho-menu-2{
+    align-items: center;
+    display: flex;
+    color:  #009EE0;
+    gap: 38px;
+}
+
+.botao2{
+    background: #0097C1;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+    color: #ffffff;
+    padding-right: 41px;
+    padding-left: 41px;
+    padding-top: 11px;
+    padding-bottom: 11px;
+}
+
+.botao{
+    color: #0097C1;
+    border: 1px solid #0097C1;
+    border-radius: 5px;
+    padding-right: 41px;
+    padding-left: 41px;
+    padding-top: 11px;
+    padding-bottom: 11px;
+}
+
+.banner{
+    display: flex;
+    width: 603%;
+    height: 700px;
+
+
+  
+}
+
+
+.espaço{
+    height: 50px;
+}
+
+.coluna{
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    justify-content:center ;
+    
+}
+
+.coluna-info{
+    background-color: #c6c7c65e;
+    border:1px solid  #c6c7c671;
+}
+
+.coluna-info2{
+    background-color: #c6c7c65e;
+    border:1px solid  #c6c7c671;
+}
+
+.coluna-info3{
+    background-color:  #c6c7c65e;
+    border:1px solid  #c6c7c671;
+}
+
+.frases{
+    
+    justify-content: center;
+    align-items: center;
+    padding-left: 50px;
+    padding-bottom: 20px;
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+.contribuir{
+    background: url(/imagens/imgcontribuir.jpg);
+    width: 500px;
+    height: 500px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.rodape{
+    background-color: #009EE0;
+    width: 100%;
+    height: 50vh;
+}
