@@ -17,8 +17,8 @@ background-color: #fff;
 }
 
 .container img{
-    width: 12px;
-    height: 13px;
+    width: 18px;
+    height: 18px;
     margin: 0 15px;
 }
 
@@ -31,6 +31,27 @@ background-color: #fff;
 nav{
     margin-left: auto;
     margin-right: 10%;
+}
+
+.cabecalho{
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+
+.cabecalho ul li{
+    list-style: none;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 30px;
+    margin-left: 10px;
+    text-align: center;
+    align-items: center;
+}
+
+.lupa{
+    width: 100px;
+    height: 100px;
 }
 
 .contribuir{
